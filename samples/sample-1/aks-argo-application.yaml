@@ -36,6 +36,19 @@ spec:
             osSKU: AzureLinux
             vmSize: standard_d2s_v6
             type: VirtualMachineScaleSets
+          pool1:
+            count: 1
+            enableAutoScaling: true
+            enableEncryptionAtHost: false
+            enableFIPS: false
+            enableNodePublicIP: false
+            enableUltraSSD: false
+            maxCount: 3
+            minCount: 1
+            mode: User
+            osSKU: AzureLinux
+            vmSize: standard_d2s_v6
+            type: VirtualMachineScaleSets
   syncPolicy:
     automated:
       prune: true
