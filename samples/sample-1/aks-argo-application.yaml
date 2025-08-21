@@ -34,7 +34,7 @@ spec:
             minCount: 1
             mode: System
             osSKU: AzureLinux
-            vmSize: Standard_DS2_v2
+            vmSize: standard_d2s_v6
             type: VirtualMachineScaleSets
   syncPolicy:
     automated:
