@@ -9,9 +9,9 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: 'https://mboersma.github.io/cluster-api-charts'
+    repoURL: 'https://ams0.github.io/cluster-api-charts'
     chart: azure-aks-aso
-    targetRevision: v0.4.2
+    targetRevision: v0.4.3
     helm:
       valuesObject:
         clusterName: "dev-cluster"
