@@ -20,7 +20,7 @@ spec:
         clientID: "0e504a0e-eec2-49f1-ad33-40e7135b9d15"
         tenantID: "2f88d75e-5ed4-41c4-9556-e627fd1ee262"
         authMode: "workloadidentity"
-        kubernetesVersion: v1.30.10
+        kubernetesVersion: v1.33.2
         clusterNetwork: "overlay"
         managedMachinePoolSpecs:
           pool0:
